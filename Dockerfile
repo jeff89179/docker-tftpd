@@ -1,13 +1,15 @@
 # Docker-tftpd
-FROM ubuntu:14.04
+FROM ubuntu
 
-MAINTAINER Erik Kaareng-Sunde esu@enonic.com
+MAINTAINER jeff89179
 
 # Build container
-#   docker build -t drerik/tftpd .
+#   docker build -t jeff89179/tftpd .
 
 # Start the container with the follonwing command:
 #   docker run -it --rm -p 69:69 -v $(pwd):/var/lib/tftpboot --name tftpd drerik/tftpd
+# I suggest creating the following path on your Docker server to map this to...
+# /container-data/tftp-server/
 
 # Install tftpd-hpa deamon
 RUN apt-get update
