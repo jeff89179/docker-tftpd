@@ -7,7 +7,7 @@ MAINTAINER jeff89179
 #   docker build -t jeff89179/tftpd .
 
 # Start the container with the follonwing command:
-#   docker run -it --rm -p 69:69 -v $(pwd):/var/lib/tftpboot --name tftpd drerik/tftpd
+#   docker run -it --rm -p 69:69 -v $(pwd):/var/lib/tftpboot --name tftpd jeff89179/tftpd
 # I suggest creating the following path on your Docker server to map this to...
 # /container-data/tftp-server/
 
