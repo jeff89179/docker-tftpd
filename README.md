@@ -4,7 +4,7 @@
 You can build the docker container localy using this command:
 
 ```
-docker build -t drerik/tftpd https://github.com/jeff89719/docker-tftpd.git
+docker build -t jeff89179/tftpd https://github.com/jeff89719/docker-tftpd.git
 ```
 
 ## Run
